@@ -1,0 +1,14 @@
+
+
+alias ktl="kafka-topics.sh --list --zookeeper kafka04:2181"
+alias ktlen="kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9092 --topic "
+alias ktd="kafka-topics.sh --describe --zookeeper kafka04:2181 --topic"
+alias kdel="kafka-topics.sh --delete --zookeeper kafka04:2181 --topic"
+alias kct="kafka-console-consumer.sh --from-beginning --zookeeper kafka04:2181 --topic"
+alias kpt="kafka-console-producer.sh --broker-list localhost:9092 --topic"
+alias pe="ps -ef | grep "
+
+
+
+
+
